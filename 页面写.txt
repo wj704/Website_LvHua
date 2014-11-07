@@ -1,0 +1,4 @@
+①为什么body 的margin要设置为auto，有什么意义
+②现在知道为什么在左边要做一个log,做个div了
+③list-style-type:none; 将li上的点去掉
+④text-decoration:none;将a标签上的横线去掉

@@ -1,0 +1,198 @@
+/* CSS Document */
+
+/*--全局--*/
+body{
+margin:auto;
+}
+#container{
+width:1200px;
+height:700px;
+margin-left:auto;
+margin-right:auto;
+background-image:url(image/header2.jpg);
+background-repeat:no-repeat;
+background-position:center top;
+}
+
+/*--头部--*/
+#header{
+ width:1200px;
+ height:78px;
+ margin-left:auto;
+ margin-right:auto;
+}
+/*--头部中的logo--*/
+#headerlog{
+width:274px;
+height:77px;
+margin-top:26px;
+margin-left:180px;
+background-image:url(image/logo.png);
+float:left;
+}
+/*--头部中的导航--*/
+#headernav{
+width:700px;
+height:77px;
+margin-left:215px;
+margin-top:35px;
+
+}
+#headernav ul{
+list-style-type:none; 
+font-family:"宋体";
+font-size:14px;
+float:left;
+}
+#headernav ul li{
+width:100px;
+height:33px;
+line-height:30px;
+text-align:center;
+float:left;
+}
+#headernav ul li a{
+	text-decoration:none;
+	color: #B5D218;
+	height: 33px;
+	width: 100px;
+	display:block;
+}
+#headernav ul li a:hover{
+	color: #000000;
+	background-image:url(image/nav_btn.png);
+}
+/*--内容--*/
+#content{
+	margin-top:42px;
+	height:650px;
+	}
+#picture{
+width:960px;
+height:200px;
+margin:auto;
+padding-top:5px;
+padding-bottom:5px;
+background-image:url(image/banner.jpg);
+}
+#contentbottom{
+width:960px;
+height:500px;
+margin-left:auto;
+margin-right:auto;
+}
+#contentleft{
+width:200px;
+height:430px;
+margin:auto;
+background-color:#FFFFFF;
+float:left;
+}
+#lvhuanav{
+width:172px;
+height:33px;
+display:table-cell; 
+text-align:center;
+vertical-align:middle; 
+background-color:#2C8AC9;
+margin-bottom:-2px;
+font-family:"宋体";
+font-size:14px;
+font-weight:bold;
+color:#FFFFFF;
+}
+#contentleft ul{
+width:200px;
+list-style-type:none;
+font-family:"宋体";
+font-size:12px;
+float:left;
+margin-left:-40px;
+margin-top:-1px;
+}
+#contentleft ul li{
+width:170px;
+height:33px;
+line-height:30px;
+float:left;
+border:1px solid #D0D0D0;
+margin-bottom:-1px;
+background-image:url(image/liicon2.png);
+background-repeat:no-repeat;
+background-position:38px 12px;
+}
+
+/*--本来可以这样解决最后一个li不一致的问题*/
+<!--#contentleft ul li:last-child{
+<!--background:none;} -->
+
+/*--为解决IE8兼容性问题，没有用到li:last-child--*/
+#contentleft ul li.lastchild{
+background:none;
+}
+#contentleft ul li a{
+ margin-left:48px;
+ text-decoration:none;
+ color:#545454;
+}
+#contentleft ul li:hover{
+	background-image:url(image/liicon.png);
+	background-repeat:no-repeat;
+    background-position:38px 12px;
+}
+
+#contentleft ul li.lastchild:hover{
+background:none;
+}
+#contentleft ul li a:hover{
+	color: #2C8AC9;	
+}
+#contentright{
+border:1px solid #D0D0D0;
+margin-top:10px;
+margin-left:200px;
+}
+#contenttitle{
+font-family:"宋体";
+font-size:12px;
+font-weight:bold;
+color:#606060;
+height:25px;
+background-color:#F0F0F0;
+padding-left:20px;
+padding-top:10px;
+}
+#contentpic
+{
+margin-top:0px;
+margin-left:80px;
+}
+#contenttext{
+margin-left:20px;
+margin-right:20px;
+margin-top:12px;
+font-family:"宋体";
+font-size:13px;
+letter-spacing:0.5px;
+line-height:25px;
+color:#545454;
+}
+/*--底部--*/
+#line{
+background-color:#B2D00F;
+border:1px solid #B2D00F;
+height:3px;
+margin-top:8px;
+}
+#footernav{
+text-align:center;
+margin-top:18px;
+font-family:"宋体";
+font-size:12px;
+letter-spacing:1px;
+}
+#footernav a{
+text-decoration:none;
+color:#545454;
+}
+
